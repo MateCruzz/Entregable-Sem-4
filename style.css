@@ -107,7 +107,29 @@ h1 {
     color: black;
     font-size: 40px;
     font-style: italic;
+    font-family: sans-serif;
 
+}
+
+
+h2{
+    font-family: sans-serif;
+    background-color: rgb(182, 14, 14);
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+
+
+}
+
+h3{
+    font-family: sans-serif;
+
+}
+
+p{
+    font-family: sans-serif;
+    
 }
 
 ul li {
@@ -136,18 +158,21 @@ main img{
     font-style: italic;
     font-size: 25px;
     align-items: center;
+    font-family: sans-serif;
+    
 }
 
 .noticia-1{
 display: flex;
 flex-wrap: wrap;
+padding: 10px;
 
 }
 .jokic {
     display: flex;
-    font-size: larger;
     justify-content: center;
-
+    padding: 10px;
+    
 }
 
 .texto-mvp {
@@ -155,13 +180,17 @@ flex-wrap: wrap;
     font-size: larger;
     justify-content: center;
     font-family: sans-serif;
+    padding: 15px;
 }
 
 /* Segunda noticia de la pagina*/
 
-.noticia-2{
-    display: flex;
+.Noticia-2{
+
+    padding: 10px;
 }
+
+
 .resumen {
     font-size: large;
     font-family: sans-serif;
@@ -182,7 +211,7 @@ flex-wrap: wrap;
 }
 /* FOOTER DE LA PAGINA*/
 .footer{
-    background-color: grey;
+    background-color: rgb(182, 14, 14);
     text-align: center;
     font-family: sans-serif;
     color: white
