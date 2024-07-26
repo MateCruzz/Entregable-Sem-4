@@ -219,6 +219,12 @@ padding: 10px;
 
 /*Logros Estilos*/
 
+.container-l{
+
+    font-family: sans-serif;
+    background-color: white;
+    justify-content: center;
+}
 .logros{
 display: flex;
 flex-direction: column;
