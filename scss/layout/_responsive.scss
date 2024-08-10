@@ -1,0 +1,22 @@
+/* _responsive.scss */
+
+@media (max-width: 768px) {
+    .contenido, .retiro {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    .menu li {
+        display: block;
+        margin: 5px 0;
+    }
+}

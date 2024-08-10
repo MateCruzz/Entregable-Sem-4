@@ -1,0 +1,66 @@
+/* _main.scss */
+
+main {
+    padding: 20px;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+    max-width: 560px;
+    margin: 20px 0;
+}
+
+.Noticias {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 25px;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.noticia-1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.jokic {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.texto-mvp {
+    display: flex;
+    font-size: larger;
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 15px;
+}
+
+.Noticia-2 {
+    padding: 10px;
+}
+
+.resumen {
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.lorem {
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.highlights {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
